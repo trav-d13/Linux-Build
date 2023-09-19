@@ -4,7 +4,7 @@
     sudo apt update
     sudo apt upgrade
     sudo apt install git
-    git clone https://github.com/S010MON/Linux.git
+    git clone https://github.com/trav-d13/Linux-Build
    
 ## 2 Auto-Install
 Using the script, run the following:
@@ -76,7 +76,26 @@ ensure that the apt version of gradle has been removed using `sudo apt remove gr
    Ensure you set the directory to one outside of `/root/` which seems to be the default, as this will cause a failed installation otherwise
   
 
-    
-    
+## 6. Gnome Manual Extensions
+### a. Control Lock Screen Blur Effect
+   - https://extensions.gnome.org/extension/2935/control-blur-effect-on-lock-screen/
+### b. Cosmic Dock and Workspaces
+### c. Unblank Lock Screen
+   - https://extensions.gnome.org/extension/1414/unblank/
 
-    
+## 7. Git Setup
+In order to set up Git credentials, execute the following commands:
+### a. Configure username
+```
+git config --global user.name "Your Name"
+```
+
+### b. Configure email
+```
+git config --global user.email "your.email@example.com"
+```
+
+### c. Specify the Credential Cache Time
+```
+git config --global credential.helper 'cache --timeout=315360000'  # Cache for 10 years
+```
