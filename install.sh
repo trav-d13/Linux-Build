@@ -16,6 +16,7 @@ sudo apt install tmux -y
 sudo apt install vim -y
 sudo apt install neovim -y
 sudo apt install snapd -y
+sudo apt install flatpak -y
 
 # Languages
 sudo apt install default-jre -y
@@ -34,11 +35,6 @@ sudo apt install kdenlive -y
 sudo apt install docker.io -y
 sudo apt install docker-compose -y
 
-# Front end
-sudo apt install npm -y
-sudo npm install -g @vue/cli -y
-sudo npm update -g @vue/cli -y
-
 # Fun stuff
 sudo apt install cmatrix -y
 sudo apt install figlet -y
@@ -53,7 +49,10 @@ sudo apt autoremove -y
 bash ./install_nord.sh
 
 # Install Zoom
-# bash ./install_zoom.sh
+bash ./install_zoom.sh
 
 # Install Jetbrains Toolbox
 bash ./install_toolbox.sh
+
+# Install Gnome extensions
+bash ./install_weather_oclock.sh

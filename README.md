@@ -4,7 +4,7 @@
     sudo apt update
     sudo apt upgrade
     sudo apt install git
-    git clone https://github.com/S010MON/Linux.git
+    git clone https://github.com/trav-d13/Linux-Build
    
 ## 2 Auto-Install
 Using the script, run the following:
