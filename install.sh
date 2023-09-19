@@ -56,3 +56,6 @@ bash ./install_toolbox.sh
 
 # Install Gnome extensions
 bash ./install_weather_oclock.sh
+
+# Perform pip installations
+bach ./pip_installs.sh
