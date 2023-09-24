@@ -60,3 +60,9 @@ bash ./install_weather_oclock.sh
 
 # Perform pip installations
 bash ./pip_installs.sh
+
+# Install obsidian
+bash ./install_obsidian.sh
+
+# Install Spotify
+bash ./install_spotify.sh
