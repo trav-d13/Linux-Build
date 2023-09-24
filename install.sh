@@ -25,6 +25,7 @@ sudo apt install openjdk-8-jdk -y
 sudo apt install openjdk-11-jdk -y
 sudo apt install gradle -y 
 sudo apt install python3 -y
+sudo apt install python3-pip -y
 sudo apt install octave -y
 
 # Image and video processing
