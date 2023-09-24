@@ -58,4 +58,4 @@ bash ./install_toolbox.sh
 bash ./install_weather_oclock.sh
 
 # Perform pip installations
-bach ./pip_installs.sh
+bash ./pip_installs.sh
